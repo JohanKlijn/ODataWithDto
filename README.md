@@ -7,6 +7,8 @@ The problem occurs when you try to expand nested objects. For example if you run
 http://localhost:59383/odata/ReviewQueues(1)/ReviewQueueItems?$expand=Interaction($expand=Participants)
 
 You will get the error:
+
+
 {
     "error": {
         "code": "",
